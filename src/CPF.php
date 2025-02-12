@@ -1,6 +1,6 @@
 <?php
 
-namespace Phillarmonic\CpfCnpj;
+namespace TLFE\CpfCnpj;
 
 class CPF extends Document
 {
