@@ -1,8 +1,8 @@
 <?php
 
-namespace Phillarmonic\CpfCnpj\Tests;
+namespace TLFE\CpfCnpj\Tests;
 
-use Phillarmonic\CpfCnpj\CPF;
+use TLFE\CpfCnpj\CPF;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;

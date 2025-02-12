@@ -1,5 +1,5 @@
 {
-    "name": "phillarmonic/cpf-cnpj",
+    "name": "tlf-e/cpf-cnpj",
     "description": "A PHP library for validating and formatting CPF and CNPJ numbers.",
     "type": "library",
     "keywords": ["cpf", "cnpj", "validation", "formatting"],
@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Phillarmonic\\CpfCnpj\\": "src/"
+            "TLFE\\CpfCnpj\\": "src/"
         }
     },
     "autoload-dev": {

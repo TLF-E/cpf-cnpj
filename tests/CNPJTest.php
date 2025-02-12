@@ -1,6 +1,6 @@
 <?php
 
-use Phillarmonic\CpfCnpj\CNPJ;
+use TLFE\CpfCnpj\CNPJ;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;

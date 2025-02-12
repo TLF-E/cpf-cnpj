@@ -1,4 +1,4 @@
-# phillarmonic/cpf-cnpj
+# tlf-e/cpf-cnpj
 
 A PHP library for validating and formatting CPF and CNPJ numbers from Brazil.
 
@@ -8,7 +8,7 @@ A PHP library for validating and formatting CPF and CNPJ numbers from Brazil.
 You can install this library using Composer. Run the following command in your project directory:
 
 ```bash
-composer require phillarmonic/cpf-cnpj
+composer require tlf-e/cpf-cnpj
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ composer require phillarmonic/cpf-cnpj
 To validate a CPF number:
 
 ```php
-use Phillarmonic\CpfCnpj\CPF;
+use TLFE\CpfCnpj\CPF;
 
 $cpf = new CPF('123.456.789-09');
 if ($cpf->isValid()) {
@@ -33,7 +33,7 @@ if ($cpf->isValid()) {
 To format a valid CPF number:
 
 ```php
-use Phillarmonic\CpfCnpj\CPF;
+use TLFE\CpfCnpj\CPF;
 
 $cpf = new CPF('12345678909');
 $formattedCpf = $cpf->format();
@@ -50,7 +50,7 @@ if ($formattedCpf !== false) {
 To validate a CNPJ number:
 
 ```php
-use Phillarmonic\CpfCnpj\CNPJ;
+use TLFE\CpfCnpj\CNPJ;
 
 $cnpj = new CNPJ('12.345.678/0001-95');
 if ($cnpj->isValid()) {
@@ -65,7 +65,7 @@ if ($cnpj->isValid()) {
 To format a valid CNPJ number:
 
 ```php
-use Phillarmonic\CpfCnpj\CNPJ;
+use TLFE\CpfCnpj\CNPJ;
 
 $cnpj = new CNPJ('12345678000195');
 $formattedCnpj = $cnpj->format();
